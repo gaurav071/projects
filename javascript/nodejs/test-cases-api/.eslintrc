@@ -1,0 +1,44 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": ["jest"],
+  "env": {
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    },
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "rules": {
+    "indent": [ 2, 4],
+    "no-underscore-dangle": 0,
+    "camelcase": 0,
+    "arrow-parens": [ 2, "as-needed"],
+    "no-unused-vars": [ 2, { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }],
+    "brace-style": [ 2, "stroustrup", { "allowSingleLine": true }],
+    "class-methods-use-this": 0,
+    "new-cap": 0,
+    "no-use-before-define": 0,
+    "no-eval": 1,
+    "import/prefer-default-export": 0,
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "key-spacing": [ 2, {
+      "align": {
+        "beforeColon": true,
+        "afterColon": true,
+        "on": "colon"
+      }
+    }],
+    "no-multi-spaces": [ 2, { "exceptions": { "Property": true, "VariableDeclarator": true, "ImportDeclaration": true } }],
+    "max-len": [2, 120, 4]
+  }
+}
