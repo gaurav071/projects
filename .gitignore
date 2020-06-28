@@ -1,2 +1,3 @@
 *.DS_Store
 java/eclipse-workspace/
+javascript/vue/video-browser/src/config/apiKey.js

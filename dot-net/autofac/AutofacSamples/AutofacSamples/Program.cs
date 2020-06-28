@@ -30,7 +30,6 @@ namespace AutofacSamples
         {
             _log.Write($"Engine [{id}] ahead {power}");
         }
-        
     }
 
     public class Car
