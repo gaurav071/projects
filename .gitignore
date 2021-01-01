@@ -1,1 +1,4 @@
 *.DS_Store
+java/eclipse-workspace/
+javascript/vue/video-browser/src/config/apiKey.js
+ruby/ruby_on_rails/redmine/.*
